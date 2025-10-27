@@ -20,7 +20,11 @@ def main():
     x="Task3a"
     #===============================
     # Write your code here
-    
+    chargeleft = int(input("Remaining Charge: "))
+    if chargeleft <= 5:
+        print("Connect your charger!")
+    else:
+        print("All good.")
 
     # End of your code here
     #===============================

@@ -33,7 +33,13 @@ def main():
     x="Task6a"
     #===============================
     # Write your code here
-    
+    message = input("Say: ")
+    finalletter = message[-1]
+    if len(message) >= 2 and message[-1] == message[-2]:
+        exageratemessage = message + '!'
+    else:
+        exageratemessage = message + finalletter * 5 + '!'
+    print(exageratemessage)
 
     # End of your code here
     #===============================

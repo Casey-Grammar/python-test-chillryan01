@@ -13,7 +13,13 @@ def main():
     x="Task1a"
     #===============================
     # Write your code here
-  
+    shout = input("Shout: ")
+
+
+    echo = f"{shout} {shout} {shout}"
+
+
+    print(echo)
     
 
     # End of your code here

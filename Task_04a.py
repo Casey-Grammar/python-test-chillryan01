@@ -33,7 +33,10 @@ def main():
     x="Task4a"
     #===============================
     # Write your code here
-    
+    age = int(input("How old are you? "))
+    yearsuntilletter = "age" - 100
+    print("Years until your letter...")
+    print(yearsuntilletter)
 
     # End of your code here
     #===============================

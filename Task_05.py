@@ -36,7 +36,9 @@ def main():
     x="Task5"
     #===============================
     # Write your code here
-    
+    amountofsheep = int(input("How many sheep: "))
+    for i in range(1, amountofsheep + 1):
+        print(f"{i} sheep")
 
     # End of your code here
     #===============================
